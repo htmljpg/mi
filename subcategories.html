@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Подкатегории</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <div class="page">
+            <div class="page__row page__row--wrapper">
+                <div class="page__cell page__cell--fluid">
+                    <div class="page__row page__row--contacts-block">
+                        <div class="page__cell">
+                            <div class="top-block in-mobile">
+                                <a class="top-block__brand" href="#">
+                                    <img class="top-block__brand-picture" src="img/brand.png" alt="brand">
+                                </a>
+                            </div>
+                            <div class="contacts-block contacts-block--bg">
+                                <div class="contacts-block__row">
+                                    <div class="contacts-block__cell contacts-block__cell--instagram">
+                                        <a class="contacts-block__icon contacts-block__icon--instagram icon-wrapper--hover-white" href="#">
+                                            <i class="icon">
+                                                <svg class="icon__svg icon__svg--instagram icon__svg--icon-color">
+                                                    <use xlink:href="img/svg/sprites.svg#instagram"></use>
+                                                </svg>
+                                            </i>
+                                            <span class="contacts-block__text">Instagram</span>
+                                        </a>
+                                    </div>
+                                    <div class="contacts-block__cell in-pc">
+                                        <p class="contacts-block__icon contacts-block__icon--time icon-wrapper--hover-white">
+                                            <i class="icon">
+                                                <svg class="icon__svg icon__svg--time icon__svg--icon-color">
+                                                    <use xlink:href="img/svg/sprites.svg#time"></use>
+                                                </svg>
+                                            </i>
+                                            <span class="contacts-block__text">Пн-Сб с 09:00 до 22:00</span>
+                                        </p>
+                                    </div>
+                                    <div class="contacts-block__cell contacts-block__cell--phone">
+                                        <a class="contacts-block__icon contacts-block__icon--phone icon-wrapper icon-wrapper--hover-white" href="tel:+79008006536">
+                                            <i class="icon">
+                                                <svg class="icon__svg icon__svg--phone icon__svg--icon-color">
+                                                    <use xlink:href="img/svg/sprites.svg#phone"></use>
+                                                </svg>
+                                            </i>
+                                            <span class="contacts-block__text">+7 900 800 65 36</span>
+                                        </a>
+                                    </div>
+                                    <div class="contacts-block__cell in-pc">
+                                        <a class="btn btn--secondary btn--xsm" href="#">
+                                            <span class="btn__span">онлайн-запись</span>
+                                        </a>
+                                    </div>
+                                    <div class="contacts-block__cell contacts-block__cell--hamburger in-mobile-flex">
+                                        <button class="hamburger target-absolute" data-target="#nav">
+                                            <i class="icon">
+                                                <svg class="icon__svg icon__svg--white icon__svg--hamburger">
+                                                    <use xlink:href="img/svg/sprites.svg#hamburger"></use>
+                                                </svg>
+                                            </i>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page__row page__row--header in-pc">
+                        <div class="page__cell">
+                            <header class="header">
+                                <div class="header__row">
+                                    <div class="header__cell header__cell--brand">
+                                        <a class="brand" href="#">
+                                            <img class="brand__picture" src="img/brand.png" alt="Brand">
+                                        </a>
+                                    </div>
+                                </div>
+                            </header>
+                        </div>
+                    </div>
+                    <div class="page__row page__row--nav z-index">
+                        <div class="page__cell">
+                            <nav class="nav" id="nav">
+                                <div class="nav__wrapper">
+                                    <div class="nav__top">
+                                        <div class="nav__brand-wrapper in-mobile">
+                                            <a class="nav__brand" href="#">
+                                                <img class="nav__brand-picture" src="img/brand.png" alt="Brand">
+                                            </a>
+                                        </div>
+                                        <div class="nav__menu-wrapper">
+                                            <ul class="nav__menu">
+                                                <li class="nav__item">
+                                                    <a class="nav__link" href="#">О нас</a>
+                                                </li>
+                                                <li class="nav__item">
+                                                    <button class="toggle-arrow toggle-arrow-nav target active" data-target=".nav__dropdown"></button>
+                                                    <a class="nav__link active" href="#">услуги</a>
+                                                    <div class="nav__dropdown">
+                                                        <ul class="dropdown scrollbar">
+                                                            <li class="dropdown__item">
+                                                                <button class="toggle-arrow toggle-arrow-nav-sub target in-mobile" data-target=".nav__dropdown"></button>
+                                                                <a class="dropdown__link" href="#">Парикмахерские услуги</a>
+                                                                <div class="nav__dropdown nav__dropdown--sub">
+                                                                    <ul class="dropdown dropdown--sub scrollbar">
+                                                                        <li class="dropdown__item">
+                                                                            <a href="#" class="dropdown__link">Мелирование волос</a>
+                                                                        </li>
+                                                                        <li class="dropdown__item">
+                                                                            <a href="#" class="dropdown__link">Окрашивание волос</a>
+                                                                        </li>
+                                                                        <li class="dropdown__item">
+                                                                            <a href="#" class="dropdown__link">Выпрямление Волос</a>
+                                                                        </li>
+                                                                        <li class="dropdown__item">
+                                                                            <a href="#" class="dropdown__link">Стрижка волос</a>
+                                                                        </li>
+                                                                        <li class="dropdown__item">
+                                                                            <a href="#" class="dropdown__link">Укладка волос</a>
+                                                                        </li>
+                                                                        <li class="dropdown__item">
+                                                                            <a href="#" class="dropdown__link">Прически</a>
+                                                                        </li>
+                                                                        <li class="dropdown__item">
+                                                                            <a href="#" class="dropdown__link">Ламинирование волос</a>
+                                                                        </li>
+                                                                        <li class="dropdown__item">
+                                                                            <a href="#" class="dropdown__link">Лечение волос</a>
+                                                                        </li>
+                                                                        <li class="dropdown__item">
+                                                                            <a href="#" class="dropdown__link">Завивка волос</a>
+                                                                        </li>
+                                                                        <li class="dropdown__item">
+                                                                            <a href="#" class="dropdown__link">Наращивание волос</a>
+                                                                        </li>
+                                                                        <li class="dropdown__item">
+                                                                            <a href="#" class="dropdown__link">Мелирование волос</a>
+                                                                        </li>
+                                                                        <li class="dropdown__item">
+                                                                            <a href="#" class="dropdown__link">Окрашивание волос</a>
+                                                                        </li>
+                                                                        <li class="dropdown__item">
+                                                                            <a href="#" class="dropdown__link">Выпрямление Волос</a>
+                                                                        </li>
+                                                                        <li class="dropdown__item">
+                                                                            <a href="#" class="dropdown__link">Стрижка волос</a>
+                                                                        </li>
+                                                                        <li class="dropdown__item">
+                                                                            <a href="#" class="dropdown__link">Укладка волос</a>
+                                                                        </li>
+                                                                        <li class="dropdown__item">
+                                                                            <a href="#" class="dropdown__link">Прически</a>
+                                                                        </li>
+                                                                        <li class="dropdown__item">
+                                                                            <a href="#" class="dropdown__link">Ламинирование волос</a>
+                                                                        </li>
+                                                                        <li class="dropdown__item">
+                                                                            <a href="#" class="dropdown__link">Лечение волос</a>
+                                                                        </li>
+                                                                        <li class="dropdown__item">
+                                                                            <a href="#" class="dropdown__link">Завивка волос</a>
+                                                                        </li>
+                                                                        <li class="dropdown__item">
+                                                                            <a href="#" class="dropdown__link">Наращивание волос</a>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </li>
+                                                            <li class="dropdown__item">
+                                                                <a class="dropdown__link" href="#">Наращивание волос</a>
+                                                            </li>
+                                                            <li class="dropdown__item">
+                                                                <a class="dropdown__link" href="#">Наращивание волос</a>
+                                                            </li>
+                                                            <li class="dropdown__item">
+                                                                <a class="dropdown__link" href="#">Макияж</a>
+                                                            </li>
+                                                            <li class="dropdown__item">
+                                                                <a class="dropdown__link" href="#">Услуги бровиста</a>
+                                                            </li>
+                                                            <li class="dropdown__item">
+                                                                <a class="dropdown__link" href="#">Солярий</a>
+                                                            </li>
+                                                            <li class="dropdown__item">
+                                                                <a class="dropdown__link" href="#">Маникюр</a>
+                                                            </li>
+                                                            <li class="dropdown__item">
+                                                                <a class="dropdown__link" href="#">Депиляция</a>
+                                                            </li>
+                                                            <li class="dropdown__item">
+                                                                <a class="dropdown__link" href="#">Чистка лица</a>
+                                                            </li>
+                                                            <li class="dropdown__item">
+                                                                <a class="dropdown__link" href="#">Уходовые процедуры</a>
+                                                            </li>
+                                                            <li class="dropdown__item">
+                                                                <a class="dropdown__link" href="#">Педикюр</a>
+                                                            </li>
+                                                            <li class="dropdown__item">
+                                                                <a class="dropdown__link" href="#">Наращивание волос</a>
+                                                            </li>
+                                                            <li class="dropdown__item">
+                                                                <a class="dropdown__link" href="#">Наращивание волос</a>
+                                                            </li>
+                                                            <li class="dropdown__item">
+                                                                <a class="dropdown__link" href="#">Макияж</a>
+                                                            </li>
+                                                            <li class="dropdown__item">
+                                                                <a class="dropdown__link" href="#">Услуги бровиста</a>
+                                                            </li>
+                                                            <li class="dropdown__item">
+                                                                <a class="dropdown__link" href="#">Солярий</a>
+                                                            </li>
+                                                            <li class="dropdown__item">
+                                                                <a class="dropdown__link" href="#">Маникюр</a>
+                                                            </li>
+                                                            <li class="dropdown__item">
+                                                                <a class="dropdown__link" href="#">Депиляция</a>
+                                                            </li>
+                                                            <li class="dropdown__item">
+                                                                <a class="dropdown__link" href="#">Чистка лица</a>
+                                                            </li>
+                                                            <li class="dropdown__item">
+                                                                <a class="dropdown__link" href="#">Уходовые процедуры</a>
+                                                            </li>
+                                                            <li class="dropdown__item">
+                                                                <a class="dropdown__link" href="#">Педикюр</a>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </li>
+                                                <li class="nav__item">
+                                                    <a class="nav__link" href="#">цены</a>
+                                                </li>
+                                                <li class="nav__item">
+                                                    <a class="nav__link" href="#">мастера</a>
+                                                </li>
+                                                <li class="nav__item">
+                                                    <a class="nav__link" href="#">работы</a>
+                                                </li>
+                                                <li class="nav__item">
+                                                    <a class="nav__link" href="#">контакты</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="nav__bottom in-mobile">
+                                        <div class="nav__contacts">
+                                            <a class="nav__btn btn btn--default btn--md text-uppercase" href="#">
+                                                <span class="btn__span">онлайн-запись</span>
+                                            </a>
+                                            <div class="contacts-block">
+                                                <div class="contacts-block__row">
+                                                    <div class="contacts-block__cell contacts-block__cell--nav contacts-block__cell--phone">
+                                                        <a class="contacts-block__icon contacts-block__icon--phone" href="tel:+79008006536">
+                                                            <i class="icon">
+                                                                <svg class="icon__svg icon__svg--phone icon__svg--icon-color">
+                                                                    <use xlink:href="img/svg/sprites.svg#phone"></use>
+                                                                </svg>
+                                                            </i>
+                                                            <span class="contacts-block__text">+7 900 800 65 36</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="contacts-block__cell contacts-block__cell--nav contacts-block__cell--instagram">
+                                                        <a class="contacts-block__icon contacts-block__icon--instagram" href="#">
+                                                            <i class="icon">
+                                                                <svg class="icon__svg icon__svg--instagram icon__svg--icon-color">
+                                                                    <use xlink:href="img/svg/sprites.svg#instagram"></use>
+                                                                </svg>
+                                                            </i>
+                                                            <span class="contacts-block__text">Instagram</span>
+                                                        </a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                            <span class="overlay target-absolute" data-target="#nav"></span>
+                        </div>
+                    </div>
+                    <div class="page__row bg-gray bg-white-in-mobile">
+                        <div class="page__cell">
+                            <div class="headline">
+                                <a class="headline__back-link back-link icon-wrapper icon-wrapper--hover-default-color" href="#">
+                                    <i class="icon">
+                                        <svg class="icon__svg icon__svg--arrow-back icon__svg--gray-dark">
+                                            <use xlink:href="img/svg/sprites.svg#arrow-back"></use>
+                                        </svg>
+                                    </i>
+                                </a>
+                                <h1 class="headline__title title title--h1 text-center">Парикмахерские услуги</h1>
+                            </div>
+                            <div class="services-block">
+                                <ul class="services-block__items services-block__items--catalog">
+                                    <li class="services-block__item services-block__item--catalog">
+                                        <a class="services-block__wrapper object-fit-wrapper-child" href="#">
+                                            <div class="services-block__picture-wrapper object-fit-wrapper">
+                                                <img class="services-block__picture object-fit-cover" src="pic/services-block-picture-1.jpg" alt="Мелирование волос">
+                                            </div>
+                                            <div class="services-block__block">
+                                                <h4 class="services-block__title title title--h4">Мелирование волос</h4>
+                                                <span class="services-block__price price color-inhert">от 4 500 руб</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="services-block__item services-block__item--catalog">
+                                        <a class="services-block__wrapper object-fit-wrapper-child" href="#">
+                                            <div class="services-block__picture-wrapper object-fit-wrapper">
+                                                <img class="services-block__picture object-fit-cover" src="pic/services-block-picture-2.jpg" alt="Окрашивание волос">
+                                            </div>
+                                            <div class="services-block__block">
+                                                <h4 class="services-block__title title title--h4">Окрашивание волос</h4>
+                                                <span class="services-block__price price color-inhert">от 4 500 руб</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="services-block__item services-block__item--catalog">
+                                        <a class="services-block__wrapper object-fit-wrapper-child" href="#">
+                                            <div class="services-block__picture-wrapper object-fit-wrapper">
+                                                <img class="services-block__picture object-fit-cover" src="pic/services-block-picture-3.jpg" alt="Выпрямление волос">
+                                            </div>
+                                            <div class="services-block__block">
+                                                <h4 class="services-block__title title title--h4">Выпрямление волос</h4>
+                                                <span class="services-block__price price color-inhert">от 4 500 руб</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="services-block__item services-block__item--catalog">
+                                        <a class="services-block__wrapper object-fit-wrapper-child" href="#">
+                                            <div class="services-block__picture-wrapper object-fit-wrapper">
+                                                <img class="services-block__picture object-fit-cover" src="pic/services-block-picture-4.jpg" alt="Стрижки волос">
+                                            </div>
+                                            <div class="services-block__block">
+                                                <h4 class="services-block__title title title--h4">Стрижки волос</h4>
+                                                <span class="services-block__price price color-inhert">от 4 500 руб</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="services-block__item services-block__item--catalog">
+                                        <a class="services-block__wrapper object-fit-wrapper-child" href="#">
+                                            <div class="services-block__picture-wrapper object-fit-wrapper">
+                                                <img class="services-block__picture object-fit-cover" src="pic/services-block-picture-5.jpg" alt="Укладки волос">
+                                            </div>
+                                            <div class="services-block__block">
+                                                <h4 class="services-block__title title title--h4">Укладки волос</h4>
+                                                <span class="services-block__price price color-inhert">от 4 500 руб</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="services-block__item services-block__item--catalog">
+                                        <a class="services-block__wrapper object-fit-wrapper-child" href="#">
+                                            <div class="services-block__picture-wrapper object-fit-wrapper">
+                                                <img class="services-block__picture object-fit-cover" src="pic/services-block-picture-6.jpg" alt="Прически для волос различной длины">
+                                            </div>
+                                            <div class="services-block__block">
+                                                <h4 class="services-block__title title title--h4">Прически для волос различной длины</h4>
+                                                <span class="services-block__price price color-inhert">от 4 500 руб</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="services-block__item services-block__item--catalog">
+                                        <a class="services-block__wrapper object-fit-wrapper-child" href="#">
+                                            <div class="services-block__picture-wrapper object-fit-wrapper">
+                                                <img class="services-block__picture object-fit-cover" src="pic/services-block-picture-7.jpg" alt="Ламинирование волос">
+                                            </div>
+                                            <div class="services-block__block">
+                                                <h4 class="services-block__title title title--h4">Ламинирование волос</h4>
+                                                <span class="services-block__price price color-inhert">от 4 500 руб</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="services-block__item services-block__item--catalog">
+                                        <a class="services-block__wrapper object-fit-wrapper-child" href="#">
+                                            <div class="services-block__picture-wrapper object-fit-wrapper">
+                                                <img class="services-block__picture object-fit-cover" src="pic/services-block-picture-8.jpg" alt="Лечение волос">
+                                            </div>
+                                            <div class="services-block__block">
+                                                <h4 class="services-block__title title title--h4">Лечение волос</h4>
+                                                <span class="services-block__price price color-inhert">от 4 500 руб</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="services-block__item services-block__item--catalog">
+                                        <a class="services-block__wrapper object-fit-wrapper-child" href="#">
+                                            <div class="services-block__picture-wrapper object-fit-wrapper">
+                                                <img class="services-block__picture object-fit-cover" src="pic/services-block-picture-9.jpg" alt="Завивка волос">
+                                            </div>
+                                            <div class="services-block__block">
+                                                <h4 class="services-block__title title title--h4">Завивка волос</h4>
+                                                <span class="services-block__price price color-inhert">от 4 500 руб</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="services-block__item services-block__item--catalog">
+                                        <a class="services-block__wrapper object-fit-wrapper-child" href="#">
+                                            <div class="services-block__picture-wrapper object-fit-wrapper">
+                                                <img class="services-block__picture object-fit-cover" src="pic/services-block-picture-1.jpg" alt="Наращивание волос">
+                                            </div>
+                                            <div class="services-block__block">
+                                                <h4 class="services-block__title title title--h4">Наращивание волос</h4>
+                                                <span class="services-block__price price color-inhert">от 4 500 руб</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page__row">
+                        <div class="page__cell page__cell--970">
+                            <section class="section">
+                                <header class="section__header section__header--text">
+                                    <h2 class="section__title-text title title--h2">Заголовок h2</h2>
+                                </header>
+                                <div class="section__body">
+                                    <p class="section__text text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. При создании генератора мы использовали небезизвестный универсальный код речей. Текст генерируется абзацами случайным образом от двух до десяти предложений в абзаце, что позволяет сделать текст более привлекательным и живым для визуально-слухового восприятия.</p>
+                                    <p class="section__text text">По своей сути рыбатекст является альтернативой традиционному lorem ipsum, который вызывает у некторых людей недоумение при попытках прочитать рыбу текст. В отличии от lorem ipsum, текст рыба на русском языке наполнит любой макет непонятным смыслом и придаст неповторимый колорит советских времен.Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. </p>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                    <div class="page__row">
+                        <div class="page__cell">
+                            <div class="text-block">
+                                <div class="text-block__row">
+                                    <div class="text-block__cell text-block__cell--picture">
+                                        <img class="text-block__picture object-fit-cover" src="pic/text-block-bg-2.jpg" alt="stand">
+                                    </div>
+                                    <div class="text-block__cell">
+                                        <div class="text-block__content text-block__content--2">
+                                            <div class="text-block-container">
+                                                <h2 class="text-block__title text-block__title--2 title title--h2 text-center-in-mobile">Парикмахерские услуги<br> в нашем салоне</h2>
+                                                <p class="text-block__quote text-center-in-mobile">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних</p>
+                                            </div>
+                                            <div class="text-block-container">
+                                                <h2 class="text-block__title title text-block__title--2 title--h2 text-center-in-mobile">Контакты:</h2>
+                                                <div class="contacts-section">
+                                                    <ul class="contacts-section__items">
+                                                        <li class="contacts-section__item">
+                                                            <p class="contacts-section__icon contacts-section__icon--text contacts-section__icon--loc">г. Москва, проспект Маяковского 54</p>
+                                                        </li>
+                                                        <li class="contacts-section__item">
+                                                            <a class="contacts-section__icon contacts-section__icon--text contacts-section__icon--phone" href="tel:+79008006536">+7 900 800 65 36</a>
+                                                        </li>
+                                                        <li class="contacts-section__item">
+                                                            <p class="contacts-section__icon contacts-section__icon--text contacts-section__icon--time">Пн-Сб с 09:00 до 22:00</p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <a class="text-block__btn btn btn--default btn--md" href="#">
+                                                    <span class="btn__span">онлайн-запись</span>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="page__row page__row--master">
+                        <div class="page__cell">
+                            <section class="section">
+                                <header class="section__header section__header--master-2">
+                                    <h2 class="section__title title title--h2 title--line title--line-mobile text-center">Мастера</h2>
+                                </header>
+                                <div class="section__body">
+                                    <div class="master">
+                                        <div class="master__items master__items--carousel">
+                                            <div class="swiper-container swiper-container--master swiper-container--padding carousel">
+                                                <div class="swiper-wrapper">
+                                                    <div class="swiper-slide">
+                                                        <div class="master__item master__item--carousel">
+                                                            <a class="master__block object-fit-wrapper" href="#">
+                                                                <img class="master__picture object-fit-cover" src="pic/master-picture-1.jpg" alt="Светлана Романенко">
+                                                                <div class="master__overlay block-overlay">
+                                                                    <h4 class="master__title title title--h4">Светлана Романенко</h4>
+                                                                    <p class="master__position">Парикмахер</p>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <div class="master__item master__item--carousel">
+                                                            <a class="master__block object-fit-wrapper" href="#">
+                                                                <img class="master__picture object-fit-cover" src="pic/master-picture-2.jpg" alt="Светлана Романенко">
+                                                                <div class="master__overlay block-overlay">
+                                                                    <h4 class="master__title title title--h4">Светлана Романенко</h4>
+                                                                    <p class="master__position">Визажист</p>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <div class="master__item master__item--carousel">
+                                                            <a class="master__block object-fit-wrapper" href="#">
+                                                                <img class="master__picture object-fit-cover" src="pic/master-picture-3.jpg" alt="Светлана Романенко">
+                                                                <div class="master__overlay block-overlay">
+                                                                    <h4 class="master__title title title--h4">Светлана Романенко</h4>
+                                                                    <p class="master__position">Парикмахер</p>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <div class="master__item master__item--carousel">
+                                                            <a class="master__block object-fit-wrapper" href="#">
+                                                                <img class="master__picture object-fit-cover" src="pic/master-picture-1.jpg" alt="Светлана Романенко">
+                                                                <div class="master__overlay block-overlay">
+                                                                    <h4 class="master__title title title--h4">Светлана Романенко</h4>
+                                                                    <p class="master__position">Парикмахер</p>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <div class="master__item master__item--carousel">
+                                                            <a class="master__block object-fit-wrapper" href="#">
+                                                                <img class="master__picture object-fit-cover" src="pic/master-picture-2.jpg" alt="Светлана Романенко">
+                                                                <div class="master__overlay block-overlay">
+                                                                    <h4 class="master__title title title--h4">Светлана Романенко</h4>
+                                                                    <p class="master__position">Визажист</p>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <div class="master__item master__item--carousel">
+                                                            <a class="master__block object-fit-wrapper" href="#">
+                                                                <img class="master__picture object-fit-cover" src="pic/master-picture-3.jpg" alt="Светлана Романенко">
+                                                                <div class="master__overlay block-overlay">
+                                                                    <h4 class="master__title title title--h4">Светлана Романенко</h4>
+                                                                    <p class="master__position">Парикмахер</p>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="prev prev--center in-pc">
+                                                    <span class="prev__text">Пред</span>
+                                                </div>
+                                                <div class="next next--center in-pc">
+                                                    <span class="next__text">След</span>
+                                                </div>
+                                                <div class="disc disc--gray disc--master in-mobile-flex" id="disc-master"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="page__row page__row--footer">
+                <div class="page__cell">
+                    <div class="footer">
+                        <div class="footer__top">
+                            <div class="footer__brand in-mobile">
+                                <a class="brand brand--footer" href="#">
+                                    <img class="brand__picture" src="img/brand-2.png" alt="Brand">
+                                </a>
+                            </div>
+                            <div class="contacts-block">
+                                <div class="contacts-block__row contacts-block__row--footer">
+                                    <div class="contacts-block__cell contacts-block__cell--footer">
+                                        <a class="contacts-block__icon contacts-block__icon--instagram icon-wrapper icon-wrapper--hover-default-color" href="#">
+                                            <i class="icon">
+                                                <svg class="icon__svg icon__svg--instagram icon__svg--gray-dark">
+                                                    <use xlink:href="img/svg/sprites.svg#instagram"></use>
+                                                </svg>
+                                            </i>
+                                            <span class="contacts-block__text">Instagram</span>
+                                        </a>
+                                    </div>
+                                    <div class="contacts-block__cell contacts-block__cell--footer">
+                                        <p class="contacts-block__icon contacts-block__icon--time icon-wrapper icon-wrapper--hover-default-color">
+                                            <i class="icon">
+                                                <svg class="icon__svg icon__svg--time icon__svg--gray-dark">
+                                                    <use xlink:href="img/svg/sprites.svg#time"></use>
+                                                </svg>
+                                            </i>
+                                            <span class="contacts-block__text">Пн-Сб с 09:00 до 22:00</span>
+                                        </p>
+                                    </div>
+                                    <div class="contacts-block__cell contacts-block__cell--footer">
+                                        <a class="contacts-block__icon contacts-block__icon--phone icon-wrapper icon-wrapper icon-wrapper--hover-default-color" href="tel:+79008006536">
+                                            <i class="icon">
+                                                <svg class="icon__svg icon__svg--phone icon__svg--gray-dark">
+                                                    <use xlink:href="img/svg/sprites.svg#phone"></use>
+                                                </svg>
+                                            </i>
+                                            <span class="contacts-block__text">+7 900 800 65 36</span>
+                                        </a>
+                                    </div>
+                                    <div class="contacts-block__cell contacts-block__cell--footer contacts-block__cell--btn">
+                                        <a class="btn btn--fifth btn--xsm" href="#">
+                                            <span class="btn__span">онлайн-запись</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="footer__middle in-pc">
+                            <div class="footer__brand">
+                                <a class="brand" href="#">
+                                    <img class="brand__picture" src="img/brand-2.png" alt="Brand">
+                                </a>
+                            </div>
+                            <nav class="footer__nav nav">
+                                <ul class="nav__menu">
+                                    <li class="nav__item">
+                                        <a class="nav__link nav__link--footer" href="#">О нас</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a class="nav__link nav__link--footer" href="#">услуги</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a class="nav__link nav__link--footer" href="#">цены</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a class="nav__link nav__link--footer" href="#">мастера</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a class="nav__link nav__link--footer" href="#">работы</a>
+                                    </li>
+                                    <li class="nav__item">
+                                        <a class="nav__link nav__link--footer" href="#">контакты</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                        <div class="footer__bottom">
+                            <div class="footer__copy-policy">
+                                <p class="footer__policy">
+                                    <a class="footer__policy-link" href="#" target="_blank">Политика конфиденциальности</a>
+                                </p>
+                                <p class="footer__copy">&copy;2021 Website, Все права защищены</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--  ==== Load CSS ==== -->
+        <script>
+            function loadCSS(hf) {
+                var ms=document.createElement("link");ms.rel="stylesheet";
+                ms.href=hf;document.getElementsByTagName("head")[0].appendChild(ms);
+            }
+            loadCSS("libs/jquery-ui/jquery-ui.min.css");
+            loadCSS("libs/swiper/swiper.min.css");
+            loadCSS("libs/aos/aos.css");
+            loadCSS("libs/jquery.fancybox/jquery.fancybox.min.css");
+        </script>
+        <!--  ==== Load Scripts ==== -->
+        <script>var scr = {"scripts":[
+            {"src" : "js/jquery-3.4.1.min.js", "async" : false},
+            {"src" : "libs/jquery-ui/jquery-ui.min.js", "async" : false},
+            {"src" : "libs/swiper/swiper.min.js", "async" : false},
+            {"src" : "libs/jquery.nicescroll/jquery.nicescroll.min.js", "async" : false},
+            {"src" : "libs/aos/aos.js", "async" : false},
+            {"src" : "libs/jquery.fancybox/jquery.fancybox.min.js", "async" : false},
+            {"src" : "libs/validate/jquery.validate.min.js", "async" : false},
+            {"src" : "libs/mask/jquery.mask.min.js", "async" : false},
+            {"src" : "js/common.js", "async" : false},
+            ]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
+        </script>
+    </body>
+</html>
